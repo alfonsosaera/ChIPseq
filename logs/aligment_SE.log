@@ -1,0 +1,101 @@
+./alignment_SE.sh
+
+************************************************
+*   BOWTIE 2 ALIGMENT OF TRIMMED FASTQ FILES   *
+************************************************
+
+11:42:38 Running file: ./alignment_SE.sh
+
+11:42:38 - Processing sample SRR540192
+11:42:38 - bowtie2_alignment step
+33796642 reads; of these:
+  33796642 (100.00%) were unpaired; of these:
+    206048 (0.61%) aligned 0 times
+    26798960 (79.29%) aligned exactly 1 time
+    6791634 (20.10%) aligned >1 times
+99.39% overall alignment rate
+[bam_sort_core] merging from 6 files and 2 in-memory blocks...
+12:02:33 - indexing bam file
+SRR540192 processing time:
+    0 h., 20 min., 3 secs.
+
+12:02:41 - Processing sample SRR540193
+12:02:41 - bowtie2_alignment step
+35199531 reads; of these:
+  35199531 (100.00%) were unpaired; of these:
+    214774 (0.61%) aligned 0 times
+    27387875 (77.81%) aligned exactly 1 time
+    7596882 (21.58%) aligned >1 times
+99.39% overall alignment rate
+[bam_sort_core] merging from 8 files and 2 in-memory blocks...
+12:17:44 - indexing bam file
+SRR540193 processing time:
+    0 h., 15 min., 10 secs.
+
+12:17:51 - Processing sample SRR540190
+12:17:51 - bowtie2_alignment step
+16607662 reads; of these:
+  16607662 (100.00%) were unpaired; of these:
+    246949 (1.49%) aligned 0 times
+    11938089 (71.88%) aligned exactly 1 time
+    4422624 (26.63%) aligned >1 times
+98.51% overall alignment rate
+[bam_sort_core] merging from 2 files and 2 in-memory blocks...
+12:25:07 - indexing bam file
+SRR540190 processing time:
+    0 h., 7 min., 20 secs.
+
+12:25:11 - Processing sample SRR540191
+12:25:11 - bowtie2_alignment step
+16357557 reads; of these:
+  16357557 (100.00%) were unpaired; of these:
+    414342 (2.53%) aligned 0 times
+    11487201 (70.23%) aligned exactly 1 time
+    4456014 (27.24%) aligned >1 times
+97.47% overall alignment rate
+[bam_sort_core] merging from 2 files and 2 in-memory blocks...
+12:32:18 - indexing bam file
+SRR540191 processing time:
+    0 h., 7 min., 12 secs.
+
+12:32:23 - Processing sample SRR540220
+12:32:23 - bowtie2_alignment step
+27690383 reads; of these:
+  27690383 (100.00%) were unpaired; of these:
+    113269 (0.41%) aligned 0 times
+    18993909 (68.59%) aligned exactly 1 time
+    8583205 (31.00%) aligned >1 times
+99.59% overall alignment rate
+[bam_sort_core] merging from 6 files and 2 in-memory blocks...
+12:45:50 - indexing bam file
+SRR540220 processing time:
+    0 h., 13 min., 35 secs.
+
+12:45:58 - Processing sample SRR540189
+12:45:58 - bowtie2_alignment step
+19871244 reads; of these:
+  19871244 (100.00%) were unpaired; of these:
+    162994 (0.82%) aligned 0 times
+    14107467 (70.99%) aligned exactly 1 time
+    5600783 (28.19%) aligned >1 times
+99.18% overall alignment rate
+[bam_sort_core] merging from 4 files and 2 in-memory blocks...
+12:54:47 - indexing bam file
+SRR540189 processing time:
+    0 h., 8 min., 54 secs.
+
+12:54:52 - Processing sample SRR540188
+12:54:52 - bowtie2_alignment step
+29625444 reads; of these:
+  29625444 (100.00%) were unpaired; of these:
+    208786 (0.70%) aligned 0 times
+    21073725 (71.13%) aligned exactly 1 time
+    8342933 (28.16%) aligned >1 times
+99.30% overall alignment rate
+[bam_sort_core] merging from 6 files and 2 in-memory blocks...
+13:08:16 - indexing bam file
+SRR540188 processing time:
+    0 h., 13 min., 32 secs.
+
+./alignment_SE.sh runtime:
+    1 h., 25 min., 46 secs.

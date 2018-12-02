@@ -1,0 +1,18 @@
+./mergeBAM_ESR1.sh
+
+************************************************
+*               MERGING BAM FILES              *
+************************************************
+
+19:34:46 Running file: ./mergeBAM_ESR1.sh
+
+19:34:46 WT BAM files
+
+
+19:40:21 GATA BAM files
+
+
+19:45:07 ./mergeBAM_ESR1.sh runtime:
+    WT files merging: 0 h., 5 min., 35 secs.
+    GATA files merging: 0 h., 4 min., 46 secs.
+        total time: 0 h., 10 min., 21 secs.

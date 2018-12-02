@@ -1,0 +1,515 @@
+./preprocessing_SE.pl
+fastq-dump_SRRlist.sh is not a proper sample file. It will not be used.
+
+Processing SRR540188
+
+FASTQC before trimming
+
+Started analysis of SRR540188.fastq
+Approx 5% complete for SRR540188.fastq
+Approx 10% complete for SRR540188.fastq
+Approx 15% complete for SRR540188.fastq
+Approx 20% complete for SRR540188.fastq
+Approx 25% complete for SRR540188.fastq
+Approx 30% complete for SRR540188.fastq
+Approx 35% complete for SRR540188.fastq
+Approx 40% complete for SRR540188.fastq
+Approx 45% complete for SRR540188.fastq
+Approx 50% complete for SRR540188.fastq
+Approx 55% complete for SRR540188.fastq
+Approx 60% complete for SRR540188.fastq
+Approx 65% complete for SRR540188.fastq
+Approx 70% complete for SRR540188.fastq
+Approx 75% complete for SRR540188.fastq
+Approx 80% complete for SRR540188.fastq
+Approx 85% complete for SRR540188.fastq
+Approx 90% complete for SRR540188.fastq
+Approx 95% complete for SRR540188.fastq
+Analysis complete for SRR540188.fastq
+
+Trimming step
+
+java -ea -Xmx9766m -Xms9766m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540188.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540188.trim.fastq minlen=25 qtrim=r trimq=10
+Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540188.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540188.trim.fastq, minlen=25, qtrim=r, trimq=10]
+Version 38.32
+
+0.022 seconds.
+Initial:
+Memory: max=10242m, total=10242m, free=10218m, used=24m
+
+Input is being processed as unpaired
+Started output streams:	0.013 seconds.
+Processing time:   		49.322 seconds.
+
+Input:                  	29991295 reads 		1079686620 bases.
+QTrimmed:               	1344332 reads (4.48%) 	17896547 bases (1.66%)
+Total Removed:          	365851 reads (1.22%) 	17896547 bases (1.66%)
+Result:                 	29625444 reads (98.78%) 	1061790073 bases (98.34%)
+
+Time:                         	49.336 seconds.
+Reads Processed:      29991k 	607.89k reads/sec
+Bases Processed:       1079m 	21.88m bases/sec
+
+FASTQC after trimming
+
+Started analysis of SRR540188.trim.fastq
+Approx 5% complete for SRR540188.trim.fastq
+Approx 10% complete for SRR540188.trim.fastq
+Approx 15% complete for SRR540188.trim.fastq
+Approx 20% complete for SRR540188.trim.fastq
+Approx 25% complete for SRR540188.trim.fastq
+Approx 30% complete for SRR540188.trim.fastq
+Approx 35% complete for SRR540188.trim.fastq
+Approx 40% complete for SRR540188.trim.fastq
+Approx 45% complete for SRR540188.trim.fastq
+Approx 50% complete for SRR540188.trim.fastq
+Approx 55% complete for SRR540188.trim.fastq
+Approx 60% complete for SRR540188.trim.fastq
+Approx 65% complete for SRR540188.trim.fastq
+Approx 70% complete for SRR540188.trim.fastq
+Approx 75% complete for SRR540188.trim.fastq
+Approx 80% complete for SRR540188.trim.fastq
+Approx 85% complete for SRR540188.trim.fastq
+Approx 90% complete for SRR540188.trim.fastq
+Approx 95% complete for SRR540188.trim.fastq
+Analysis complete for SRR540188.trim.fastq
+
+Processing SRR540189
+
+FASTQC before trimming
+
+Started analysis of SRR540189.fastq
+Approx 5% complete for SRR540189.fastq
+Approx 10% complete for SRR540189.fastq
+Approx 15% complete for SRR540189.fastq
+Approx 20% complete for SRR540189.fastq
+Approx 25% complete for SRR540189.fastq
+Approx 30% complete for SRR540189.fastq
+Approx 35% complete for SRR540189.fastq
+Approx 40% complete for SRR540189.fastq
+Approx 45% complete for SRR540189.fastq
+Approx 50% complete for SRR540189.fastq
+Approx 55% complete for SRR540189.fastq
+Approx 60% complete for SRR540189.fastq
+Approx 65% complete for SRR540189.fastq
+Approx 70% complete for SRR540189.fastq
+Approx 75% complete for SRR540189.fastq
+Approx 80% complete for SRR540189.fastq
+Approx 85% complete for SRR540189.fastq
+Approx 90% complete for SRR540189.fastq
+Approx 95% complete for SRR540189.fastq
+Analysis complete for SRR540189.fastq
+
+Trimming step
+
+java -ea -Xmx9795m -Xms9795m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540189.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540189.trim.fastq minlen=25 qtrim=r trimq=10
+Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540189.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540189.trim.fastq, minlen=25, qtrim=r, trimq=10]
+Version 38.32
+
+0.020 seconds.
+Initial:
+Memory: max=10271m, total=10271m, free=10246m, used=25m
+
+Input is being processed as unpaired
+Started output streams:	0.025 seconds.
+Processing time:   		31.552 seconds.
+
+Input:                  	19920141 reads 		717125076 bases.
+QTrimmed:               	370774 reads (1.86%) 	3202497 bases (0.45%)
+Total Removed:          	48897 reads (0.25%) 	3202497 bases (0.45%)
+Result:                 	19871244 reads (99.75%) 	713922579 bases (99.55%)
+
+Time:                         	31.580 seconds.
+Reads Processed:      19920k 	630.79k reads/sec
+Bases Processed:        717m 	22.71m bases/sec
+
+FASTQC after trimming
+
+Started analysis of SRR540189.trim.fastq
+Approx 5% complete for SRR540189.trim.fastq
+Approx 10% complete for SRR540189.trim.fastq
+Approx 15% complete for SRR540189.trim.fastq
+Approx 20% complete for SRR540189.trim.fastq
+Approx 25% complete for SRR540189.trim.fastq
+Approx 30% complete for SRR540189.trim.fastq
+Approx 35% complete for SRR540189.trim.fastq
+Approx 40% complete for SRR540189.trim.fastq
+Approx 45% complete for SRR540189.trim.fastq
+Approx 50% complete for SRR540189.trim.fastq
+Approx 55% complete for SRR540189.trim.fastq
+Approx 60% complete for SRR540189.trim.fastq
+Approx 65% complete for SRR540189.trim.fastq
+Approx 70% complete for SRR540189.trim.fastq
+Approx 75% complete for SRR540189.trim.fastq
+Approx 80% complete for SRR540189.trim.fastq
+Approx 85% complete for SRR540189.trim.fastq
+Approx 90% complete for SRR540189.trim.fastq
+Approx 95% complete for SRR540189.trim.fastq
+Analysis complete for SRR540189.trim.fastq
+
+Processing SRR540190
+
+FASTQC before trimming
+
+Started analysis of SRR540190.fastq
+Approx 5% complete for SRR540190.fastq
+Approx 10% complete for SRR540190.fastq
+Approx 15% complete for SRR540190.fastq
+Approx 20% complete for SRR540190.fastq
+Approx 25% complete for SRR540190.fastq
+Approx 30% complete for SRR540190.fastq
+Approx 35% complete for SRR540190.fastq
+Approx 40% complete for SRR540190.fastq
+Approx 45% complete for SRR540190.fastq
+Approx 50% complete for SRR540190.fastq
+Approx 55% complete for SRR540190.fastq
+Approx 60% complete for SRR540190.fastq
+Approx 65% complete for SRR540190.fastq
+Approx 70% complete for SRR540190.fastq
+Approx 75% complete for SRR540190.fastq
+Approx 80% complete for SRR540190.fastq
+Approx 85% complete for SRR540190.fastq
+Approx 90% complete for SRR540190.fastq
+Approx 95% complete for SRR540190.fastq
+Approx 100% complete for SRR540190.fastq
+Analysis complete for SRR540190.fastq
+
+Trimming step
+
+java -ea -Xmx9808m -Xms9808m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540190.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540190.trim.fastq minlen=25 qtrim=r trimq=10
+Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540190.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540190.trim.fastq, minlen=25, qtrim=r, trimq=10]
+Version 38.32
+
+0.015 seconds.
+Initial:
+Memory: max=10284m, total=10284m, free=10260m, used=24m
+
+Input is being processed as unpaired
+Started output streams:	0.010 seconds.
+Processing time:   		28.087 seconds.
+
+Input:                  	16749008 reads 		602964288 bases.
+QTrimmed:               	405034 reads (2.42%) 	6469658 bases (1.07%)
+Total Removed:          	141346 reads (0.84%) 	6469658 bases (1.07%)
+Result:                 	16607662 reads (99.16%) 	596494630 bases (98.93%)
+
+Time:                         	28.099 seconds.
+Reads Processed:      16749k 	596.07k reads/sec
+Bases Processed:        602m 	21.46m bases/sec
+
+FASTQC after trimming
+
+Started analysis of SRR540190.trim.fastq
+Approx 5% complete for SRR540190.trim.fastq
+Approx 10% complete for SRR540190.trim.fastq
+Approx 15% complete for SRR540190.trim.fastq
+Approx 20% complete for SRR540190.trim.fastq
+Approx 25% complete for SRR540190.trim.fastq
+Approx 30% complete for SRR540190.trim.fastq
+Approx 35% complete for SRR540190.trim.fastq
+Approx 40% complete for SRR540190.trim.fastq
+Approx 45% complete for SRR540190.trim.fastq
+Approx 50% complete for SRR540190.trim.fastq
+Approx 55% complete for SRR540190.trim.fastq
+Approx 60% complete for SRR540190.trim.fastq
+Approx 65% complete for SRR540190.trim.fastq
+Approx 70% complete for SRR540190.trim.fastq
+Approx 75% complete for SRR540190.trim.fastq
+Approx 80% complete for SRR540190.trim.fastq
+Approx 85% complete for SRR540190.trim.fastq
+Approx 90% complete for SRR540190.trim.fastq
+Approx 95% complete for SRR540190.trim.fastq
+Analysis complete for SRR540190.trim.fastq
+
+Processing SRR540191
+
+FASTQC before trimming
+
+Started analysis of SRR540191.fastq
+Approx 5% complete for SRR540191.fastq
+Approx 10% complete for SRR540191.fastq
+Approx 15% complete for SRR540191.fastq
+Approx 20% complete for SRR540191.fastq
+Approx 25% complete for SRR540191.fastq
+Approx 30% complete for SRR540191.fastq
+Approx 35% complete for SRR540191.fastq
+Approx 40% complete for SRR540191.fastq
+Approx 45% complete for SRR540191.fastq
+Approx 50% complete for SRR540191.fastq
+Approx 55% complete for SRR540191.fastq
+Approx 60% complete for SRR540191.fastq
+Approx 65% complete for SRR540191.fastq
+Approx 70% complete for SRR540191.fastq
+Approx 75% complete for SRR540191.fastq
+Approx 80% complete for SRR540191.fastq
+Approx 85% complete for SRR540191.fastq
+Approx 90% complete for SRR540191.fastq
+Approx 95% complete for SRR540191.fastq
+Analysis complete for SRR540191.fastq
+
+Trimming step
+
+java -ea -Xmx9910m -Xms9910m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540191.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540191.trim.fastq minlen=25 qtrim=r trimq=10
+Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540191.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540191.trim.fastq, minlen=25, qtrim=r, trimq=10]
+Version 38.32
+
+0.020 seconds.
+Initial:
+Memory: max=10393m, total=10393m, free=10369m, used=24m
+
+Input is being processed as unpaired
+Started output streams:	0.015 seconds.
+Processing time:   		26.698 seconds.
+
+Input:                  	16503175 reads 		594114300 bases.
+QTrimmed:               	412526 reads (2.50%) 	6638987 bases (1.12%)
+Total Removed:          	145618 reads (0.88%) 	6638987 bases (1.12%)
+Result:                 	16357557 reads (99.12%) 	587475313 bases (98.88%)
+
+Time:                         	26.714 seconds.
+Reads Processed:      16503k 	617.76k reads/sec
+Bases Processed:        594m 	22.24m bases/sec
+
+FASTQC after trimming
+
+Started analysis of SRR540191.trim.fastq
+Approx 5% complete for SRR540191.trim.fastq
+Approx 10% complete for SRR540191.trim.fastq
+Approx 15% complete for SRR540191.trim.fastq
+Approx 20% complete for SRR540191.trim.fastq
+Approx 25% complete for SRR540191.trim.fastq
+Approx 30% complete for SRR540191.trim.fastq
+Approx 35% complete for SRR540191.trim.fastq
+Approx 40% complete for SRR540191.trim.fastq
+Approx 45% complete for SRR540191.trim.fastq
+Approx 50% complete for SRR540191.trim.fastq
+Approx 55% complete for SRR540191.trim.fastq
+Approx 60% complete for SRR540191.trim.fastq
+Approx 65% complete for SRR540191.trim.fastq
+Approx 70% complete for SRR540191.trim.fastq
+Approx 75% complete for SRR540191.trim.fastq
+Approx 80% complete for SRR540191.trim.fastq
+Approx 85% complete for SRR540191.trim.fastq
+Approx 90% complete for SRR540191.trim.fastq
+Approx 95% complete for SRR540191.trim.fastq
+Analysis complete for SRR540191.trim.fastq
+
+Processing SRR540192
+
+FASTQC before trimming
+
+Started analysis of SRR540192.fastq
+Approx 5% complete for SRR540192.fastq
+Approx 10% complete for SRR540192.fastq
+Approx 15% complete for SRR540192.fastq
+Approx 20% complete for SRR540192.fastq
+Approx 25% complete for SRR540192.fastq
+Approx 30% complete for SRR540192.fastq
+Approx 35% complete for SRR540192.fastq
+Approx 40% complete for SRR540192.fastq
+Approx 45% complete for SRR540192.fastq
+Approx 50% complete for SRR540192.fastq
+Approx 55% complete for SRR540192.fastq
+Approx 60% complete for SRR540192.fastq
+Approx 65% complete for SRR540192.fastq
+Approx 70% complete for SRR540192.fastq
+Approx 75% complete for SRR540192.fastq
+Approx 80% complete for SRR540192.fastq
+Approx 85% complete for SRR540192.fastq
+Approx 90% complete for SRR540192.fastq
+Approx 95% complete for SRR540192.fastq
+Analysis complete for SRR540192.fastq
+
+Trimming step
+
+java -ea -Xmx9929m -Xms9929m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540192.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540192.trim.fastq minlen=25 qtrim=r trimq=10
+Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540192.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540192.trim.fastq, minlen=25, qtrim=r, trimq=10]
+Version 38.32
+
+0.018 seconds.
+Initial:
+Memory: max=10414m, total=10414m, free=10390m, used=24m
+
+Input is being processed as unpaired
+Started output streams:	0.018 seconds.
+Processing time:   		98.688 seconds.
+
+Input:                  	33806462 reads 		1250839094 bases.
+QTrimmed:               	256007 reads (0.76%) 	1112954 bases (0.09%)
+Total Removed:          	9820 reads (0.03%) 	1112954 bases (0.09%)
+Result:                 	33796642 reads (99.97%) 	1249726140 bases (99.91%)
+
+Time:                         	98.709 seconds.
+Reads Processed:      33806k 	342.49k reads/sec
+Bases Processed:       1250m 	12.67m bases/sec
+
+FASTQC after trimming
+
+Started analysis of SRR540192.trim.fastq
+Approx 5% complete for SRR540192.trim.fastq
+Approx 10% complete for SRR540192.trim.fastq
+Approx 15% complete for SRR540192.trim.fastq
+Approx 20% complete for SRR540192.trim.fastq
+Approx 25% complete for SRR540192.trim.fastq
+Approx 30% complete for SRR540192.trim.fastq
+Approx 35% complete for SRR540192.trim.fastq
+Approx 40% complete for SRR540192.trim.fastq
+Approx 45% complete for SRR540192.trim.fastq
+Approx 50% complete for SRR540192.trim.fastq
+Approx 55% complete for SRR540192.trim.fastq
+Approx 60% complete for SRR540192.trim.fastq
+Approx 65% complete for SRR540192.trim.fastq
+Approx 70% complete for SRR540192.trim.fastq
+Approx 75% complete for SRR540192.trim.fastq
+Approx 80% complete for SRR540192.trim.fastq
+Approx 85% complete for SRR540192.trim.fastq
+Approx 90% complete for SRR540192.trim.fastq
+Approx 95% complete for SRR540192.trim.fastq
+Analysis complete for SRR540192.trim.fastq
+
+Processing SRR540193
+
+FASTQC before trimming
+
+Started analysis of SRR540193.fastq
+Approx 5% complete for SRR540193.fastq
+Approx 10% complete for SRR540193.fastq
+Approx 15% complete for SRR540193.fastq
+Approx 20% complete for SRR540193.fastq
+Approx 25% complete for SRR540193.fastq
+Approx 30% complete for SRR540193.fastq
+Approx 35% complete for SRR540193.fastq
+Approx 40% complete for SRR540193.fastq
+Approx 45% complete for SRR540193.fastq
+Approx 50% complete for SRR540193.fastq
+Approx 55% complete for SRR540193.fastq
+Approx 60% complete for SRR540193.fastq
+Approx 65% complete for SRR540193.fastq
+Approx 70% complete for SRR540193.fastq
+Approx 75% complete for SRR540193.fastq
+Approx 80% complete for SRR540193.fastq
+Approx 85% complete for SRR540193.fastq
+Approx 90% complete for SRR540193.fastq
+Approx 95% complete for SRR540193.fastq
+Analysis complete for SRR540193.fastq
+
+Trimming step
+
+java -ea -Xmx9927m -Xms9927m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540193.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540193.trim.fastq minlen=25 qtrim=r trimq=10
+Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540193.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540193.trim.fastq, minlen=25, qtrim=r, trimq=10]
+Version 38.32
+
+0.019 seconds.
+Initial:
+Memory: max=10410m, total=10410m, free=10386m, used=24m
+
+Input is being processed as unpaired
+Started output streams:	0.027 seconds.
+Processing time:   		105.655 seconds.
+
+Input:                  	35210153 reads 		1302775661 bases.
+QTrimmed:               	248532 reads (0.71%) 	1155504 bases (0.09%)
+Total Removed:          	10622 reads (0.03%) 	1155504 bases (0.09%)
+Result:                 	35199531 reads (99.97%) 	1301620157 bases (99.91%)
+
+Time:                         	105.683 seconds.
+Reads Processed:      35210k 	333.17k reads/sec
+Bases Processed:       1302m 	12.33m bases/sec
+
+FASTQC after trimming
+
+Started analysis of SRR540193.trim.fastq
+Approx 5% complete for SRR540193.trim.fastq
+Approx 10% complete for SRR540193.trim.fastq
+Approx 15% complete for SRR540193.trim.fastq
+Approx 20% complete for SRR540193.trim.fastq
+Approx 25% complete for SRR540193.trim.fastq
+Approx 30% complete for SRR540193.trim.fastq
+Approx 35% complete for SRR540193.trim.fastq
+Approx 40% complete for SRR540193.trim.fastq
+Approx 45% complete for SRR540193.trim.fastq
+Approx 50% complete for SRR540193.trim.fastq
+Approx 55% complete for SRR540193.trim.fastq
+Approx 60% complete for SRR540193.trim.fastq
+Approx 65% complete for SRR540193.trim.fastq
+Approx 70% complete for SRR540193.trim.fastq
+Approx 75% complete for SRR540193.trim.fastq
+Approx 80% complete for SRR540193.trim.fastq
+Approx 85% complete for SRR540193.trim.fastq
+Approx 90% complete for SRR540193.trim.fastq
+Approx 95% complete for SRR540193.trim.fastq
+Analysis complete for SRR540193.trim.fastq
+
+Processing SRR540220
+
+FASTQC before trimming
+
+Started analysis of SRR540220.fastq
+Approx 5% complete for SRR540220.fastq
+Approx 10% complete for SRR540220.fastq
+Approx 15% complete for SRR540220.fastq
+Approx 20% complete for SRR540220.fastq
+Approx 25% complete for SRR540220.fastq
+Approx 30% complete for SRR540220.fastq
+Approx 35% complete for SRR540220.fastq
+Approx 40% complete for SRR540220.fastq
+Approx 45% complete for SRR540220.fastq
+Approx 50% complete for SRR540220.fastq
+Approx 55% complete for SRR540220.fastq
+Approx 60% complete for SRR540220.fastq
+Approx 65% complete for SRR540220.fastq
+Approx 70% complete for SRR540220.fastq
+Approx 75% complete for SRR540220.fastq
+Approx 80% complete for SRR540220.fastq
+Approx 85% complete for SRR540220.fastq
+Approx 90% complete for SRR540220.fastq
+Approx 95% complete for SRR540220.fastq
+Analysis complete for SRR540220.fastq
+
+Trimming step
+
+java -ea -Xmx9807m -Xms9807m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540220.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540220.trim.fastq minlen=25 qtrim=r trimq=10
+Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540220.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540220.trim.fastq, minlen=25, qtrim=r, trimq=10]
+Version 38.32
+
+0.074 seconds.
+Initial:
+Memory: max=10284m, total=10284m, free=10260m, used=24m
+
+Input is being processed as unpaired
+Started output streams:	0.218 seconds.
+Processing time:   		73.402 seconds.
+
+Input:                  	28226691 reads 		1016160876 bases.
+QTrimmed:               	1544089 reads (5.47%) 	25552829 bases (2.51%)
+Total Removed:          	536308 reads (1.90%) 	25552829 bases (2.51%)
+Result:                 	27690383 reads (98.10%) 	990608047 bases (97.49%)
+
+Time:                         	73.621 seconds.
+Reads Processed:      28226k 	383.40k reads/sec
+Bases Processed:       1016m 	13.80m bases/sec
+
+FASTQC after trimming
+
+Started analysis of SRR540220.trim.fastq
+Approx 5% complete for SRR540220.trim.fastq
+Approx 10% complete for SRR540220.trim.fastq
+Approx 15% complete for SRR540220.trim.fastq
+Approx 20% complete for SRR540220.trim.fastq
+Approx 25% complete for SRR540220.trim.fastq
+Approx 30% complete for SRR540220.trim.fastq
+Approx 35% complete for SRR540220.trim.fastq
+Approx 40% complete for SRR540220.trim.fastq
+Approx 45% complete for SRR540220.trim.fastq
+Approx 50% complete for SRR540220.trim.fastq
+Approx 55% complete for SRR540220.trim.fastq
+Approx 60% complete for SRR540220.trim.fastq
+Approx 65% complete for SRR540220.trim.fastq
+Approx 70% complete for SRR540220.trim.fastq
+Approx 75% complete for SRR540220.trim.fastq
+Approx 80% complete for SRR540220.trim.fastq
+Approx 85% complete for SRR540220.trim.fastq
+Approx 90% complete for SRR540220.trim.fastq
+Approx 95% complete for SRR540220.trim.fastq
+Analysis complete for SRR540220.trim.fastq
+SRR_Acc_List.txt is not a proper sample file. It will not be used.
