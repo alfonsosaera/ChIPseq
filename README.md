@@ -112,48 +112,46 @@ The `preprocessing_SE.pl` script performs all these steps automatically for all 
 
 Initial quality analysis reports are saved in the `results/fastqc` folder. Trimmed FASTQ files are saved in the `results/tr_fastq` folder and the final quality reports in the `results/tr_fastq/fastqc` folder. The terminal output for one sample is shown below.
 
-``` shell
-Processing SRR540188
+    Processing SRR540188
 
-FASTQC before trimming
+    FASTQC before trimming
 
-Started analysis of SRR540188.fastq
-Approx 5% complete for SRR540188.fastq
-...
-Approx 95% complete for SRR540188.fastq
-Analysis complete for SRR540188.fastq
+    Started analysis of SRR540188.fastq
+    Approx 5% complete for SRR540188.fastq
+    ...
+    Approx 95% complete for SRR540188.fastq
+    Analysis complete for SRR540188.fastq
 
-Trimming step
+    Trimming step
 
-java -ea -Xmx9766m -Xms9766m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540188.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540188.trim.fastq minlen=25 qtrim=r trimq=10
-Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540188.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540188.trim.fastq, minlen=25, qtrim=r, trimq=10]
-Version 38.32
+    java -ea -Xmx9766m -Xms9766m -cp /mnt/518D6BCF3ECC578E/BBMap_38.32/bbmap/current/ jgi.BBDukF in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540188.fastq out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540188.trim.fastq minlen=25 qtrim=r trimq=10
+    Executing jgi.BBDukF [in=/mnt/518D6BCF3ECC578E/ChIP-seq/fastq/SRR540188.fastq, out=/mnt/518D6BCF3ECC578E/ChIP-seq/results/tr_fastq/SRR540188.trim.fastq, minlen=25, qtrim=r, trimq=10]
+    Version 38.32
 
-0.022 seconds.
-Initial:
-Memory: max=10242m, total=10242m, free=10218m, used=24m
+    0.022 seconds.
+    Initial:
+    Memory: max=10242m, total=10242m, free=10218m, used=24m
 
-Input is being processed as unpaired
-Started output streams: 0.013 seconds.
-Processing time:        49.322 seconds.
+    Input is being processed as unpaired
+    Started output streams: 0.013 seconds.
+    Processing time:        49.322 seconds.
 
-Input:                      29991295 reads      1079686620 bases.
-QTrimmed:                   1344332 reads (4.48%)   17896547 bases (1.66%)
-Total Removed:              365851 reads (1.22%)    17896547 bases (1.66%)
-Result:                     29625444 reads (98.78%)     1061790073 bases (98.34%)
+    Input:                      29991295 reads      1079686620 bases.
+    QTrimmed:                   1344332 reads (4.48%)   17896547 bases (1.66%)
+    Total Removed:              365851 reads (1.22%)    17896547 bases (1.66%)
+    Result:                     29625444 reads (98.78%)     1061790073 bases (98.34%)
 
-Time:                           49.336 seconds.
-Reads Processed:      29991k    607.89k reads/sec
-Bases Processed:       1079m    21.88m bases/sec
+    Time:                           49.336 seconds.
+    Reads Processed:      29991k    607.89k reads/sec
+    Bases Processed:       1079m    21.88m bases/sec
 
-FASTQC after trimming
+    FASTQC after trimming
 
-Started analysis of SRR540188.trim.fastq
-Approx 5% complete for SRR540188.trim.fastq
-...
-Approx 95% complete for SRR540188.trim.fastq
-Analysis complete for SRR540188.trim.fastq
-```
+    Started analysis of SRR540188.trim.fastq
+    Approx 5% complete for SRR540188.trim.fastq
+    ...
+    Approx 95% complete for SRR540188.trim.fastq
+    Analysis complete for SRR540188.trim.fastq
 
 The whole output is in the `preprocessing_SE.log` file.
 
@@ -191,20 +189,18 @@ The `alignment_SE.sh` script performs all these steps automatically for all trim
 
 BAM files are saved in the `results/bowtie2_alignment` folder. The terminal output for one sample is shown below.
 
-``` shell
-11:42:38 - Processing sample SRR540192
-11:42:38 - bowtie2_alignment step
-33796642 reads; of these:
-  33796642 (100.00%) were unpaired; of these:
-    206048 (0.61%) aligned 0 times
-    26798960 (79.29%) aligned exactly 1 time
-    6791634 (20.10%) aligned >1 times
-99.39% overall alignment rate
-[bam_sort_core] merging from 6 files and 2 in-memory blocks...
-12:02:33 - indexing bam file
-SRR540192 processing time:
-    0 h., 20 min., 3 secs.
-```
+    11:42:38 - Processing sample SRR540192
+    11:42:38 - bowtie2_alignment step
+    33796642 reads; of these:
+      33796642 (100.00%) were unpaired; of these:
+        206048 (0.61%) aligned 0 times
+        26798960 (79.29%) aligned exactly 1 time
+        6791634 (20.10%) aligned >1 times
+    99.39% overall alignment rate
+    [bam_sort_core] merging from 6 files and 2 in-memory blocks...
+    12:02:33 - indexing bam file
+    SRR540192 processing time:
+        0 h., 20 min., 3 secs.
 
 The whole output is in the `alignment_SE.log` file.
 
@@ -239,26 +235,24 @@ The `mergeBAM_ESR1.sh` script will do this automatically and time it.
 
 The terminal output is shown below and saved in the `mergeBAM_ESR1.log` file
 
-``` shell
-./mergeBAM_ESR1.sh
+    ./mergeBAM_ESR1.sh
 
-************************************************
-*               MERGING BAM FILES              *
-************************************************
+    ************************************************
+    *               MERGING BAM FILES              *
+    ************************************************
 
-19:34:46 Running file: ./mergeBAM_ESR1.sh
+    19:34:46 Running file: ./mergeBAM_ESR1.sh
 
-19:34:46 WT BAM files
-
-
-19:40:21 GATA BAM files
+    19:34:46 WT BAM files
 
 
-19:45:07 ./mergeBAM_ESR1.sh runtime:
-    WT files merging: 0 h., 5 min., 35 secs.
-    GATA files merging: 0 h., 4 min., 46 secs.
-        total time: 0 h., 10 min., 21 secs.
-```
+    19:40:21 GATA BAM files
+
+
+    19:45:07 ./mergeBAM_ESR1.sh runtime:
+        WT files merging: 0 h., 5 min., 35 secs.
+        GATA files merging: 0 h., 4 min., 46 secs.
+            total time: 0 h., 10 min., 21 secs.
 
 Now `macs2` can be used to identify ChIP peaks as follows.
 
@@ -281,11 +275,9 @@ macs2 callpeak -t results/siGATA.merged.bam \
 
 The output is composed of 6 files:
 
-``` shell
-siNT_vs_input_macs2_control_lambda.bdg  siNT_vs_input_macs2_peaks.xls
-siNT_vs_input_macs2_model.r             siNT_vs_input_macs2_summits.bed
-siNT_vs_input_macs2_peaks.narrowPeak    siNT_vs_input_macs2_treat_pileup.bdg
-```
+    siNT_vs_input_macs2_control_lambda.bdg  siNT_vs_input_macs2_peaks.xls
+    siNT_vs_input_macs2_model.r             siNT_vs_input_macs2_summits.bed
+    siNT_vs_input_macs2_peaks.narrowPeak    siNT_vs_input_macs2_treat_pileup.bdg
 
 `siNT_vs_input_macs2_peaks.xls` has a summary of all information and analyses. `siNT_vs_input_macs2_model.r` is R script which to produce a PDF image about the model based on the data using the code
 
@@ -297,39 +289,31 @@ Rscript -vanilla siNT_vs_input_macs2_model.r
 
 Content of `siNT_vs_input_macs2_summits.bed` ([BED format](https://www.ensembl.org/info/website/upload/bed.html)). The summits of the identified peaks.
 
-``` shell
-chr1    18523   18524   siNT_vs_input_macs2_peak_1  37.57343
-chr1    22267   22268   siNT_vs_input_macs2_peak_2  14.19932
-chr1    136211  136212  siNT_vs_input_macs2_peak_3  21.81518
-...
-```
+    chr1    18523   18524   siNT_vs_input_macs2_peak_1  37.57343
+    chr1    22267   22268   siNT_vs_input_macs2_peak_2  14.19932
+    chr1    136211  136212  siNT_vs_input_macs2_peak_3  21.81518
+    ...
 
 Content of `siNT_vs_input_macs2_peaks.narrowPeak` ([BED format](https://www.ensembl.org/info/website/upload/bed.html)). The location of the identified peaks.
 
-``` shell
-chr1    18372   18673   siNT_vs_input_macs2_peak_1  375 .   14.6555040.68526    37.57343    151
-chr1    22182   22331   siNT_vs_input_macs2_peak_2  141 .   6.2153116.93061 14.19932    85
-chr1    136123  136343  siNT_vs_input_macs2_peak_3  218 .   11.9807124.69263    21.81518    88
-...
-```
+    chr1    18372   18673   siNT_vs_input_macs2_peak_1  375 .   14.6555040.68526    37.57343    151
+    chr1    22182   22331   siNT_vs_input_macs2_peak_2  141 .   6.2153116.93061 14.19932    85
+    chr1    136123  136343  siNT_vs_input_macs2_peak_3  218 .   11.9807124.69263    21.81518    88
+    ...
 
 Content of `siNT_vs_input_macs2_treat_pileup.bdg` (can be converted to bigwig as described in this [link](https://github.com/taoliu/MACS/wiki/Build-Signal-Track#fix-the-bedgraph-and-convert-them-to-bigwig-files)). The peak coverage.
 
-``` shell
-chrUn_KI270748v1    0   62  0.00000
-chrUn_KI270748v1    62  165 0.42967
-chrUn_KI270748v1    165 191 0.00000
-...
-```
+    chrUn_KI270748v1    0   62  0.00000
+    chrUn_KI270748v1    62  165 0.42967
+    chrUn_KI270748v1    165 191 0.00000
+    ...
 
 Content of `siNT_vs_input_macs2_treat_lambda.bdg` (can be converted to bigwig as described in this [link](https://github.com/taoliu/MACS/wiki/Build-Signal-Track#fix-the-bedgraph-and-convert-them-to-bigwig-files)). The local lambda to find enriched regions and predict the peaks.
 
-``` shell
-chrUn_KI270748v1    0   169 1.03248
-chrUn_KI270748v1    169 175 2.00000
-chrUn_KI270748v1    175 216 3.00000
-...
-```
+    chrUn_KI270748v1    0   169 1.03248
+    chrUn_KI270748v1    169 175 2.00000
+    chrUn_KI270748v1    175 216 3.00000
+    ...
 
 In the following image, the pileup is the firs line, then the summits, the narrow peaks and the calculated lambda followed by the BAM file showing the reads and the coverage. ![](README_files/IGV-2.png)
 
