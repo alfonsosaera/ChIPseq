@@ -326,7 +326,7 @@ Now, the next step would be to compute differential binding to compare the peaks
 Automate the analysis
 =====================
 
-The whole analysis can be performed by running sequentially the scripts provided in the `script` folder.
+The whole analysis can be performed by running sequentially the scripts provided in the `script` folder. In addition of running the whole analysis for all the samples automatically (`mergeBAM_ESR1.sh` and `run_macs_ESR1.sh` must be adapted manually according to the experimental design) the bash scripts will also measure and display the execution time of all the steps.
 
 1.  Create a folder for the whole analysis, e.g. `ChIPseq`, and another inside called `fastq` to store the FASTQ files.
 2.  Copy the `SRR_Acc_List.txt` file and the `fastq-dump_SRRlist.sh` bash script to the `ChIPseq/fastq` folder and the remaining scripts to the `ChIPseq` folder.
