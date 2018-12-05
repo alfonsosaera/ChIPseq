@@ -2,7 +2,11 @@
 ChIP-seq pipeline
 =================
 
-I present here a simple pipeline to perform a basic ChIP-seq analysis, from getting the FASTQ files, read preprocessing and mapping to peak calling. Annotation and differential binding analysis of peaks will be included in future versions of this pipeline.
+I present here a simple pipeline to perform a basic ChIP-seq analysis, from getting the FASTQ files, read preprocessing and mapping to peak calling.
+
+I explain the steps of the analysis and provide Perl and bash scripts to run the analysis automatically with a few commands.
+
+Annotation and differential binding analysis of peaks will be included in future versions of this pipeline.
 
 Dataset
 =======
@@ -347,5 +351,7 @@ cd ..
 # Generate model if desired
 Rscript -vanilla siNT_vs_input_macs2_model.r
 ```
+
+If your data is composed of Paired end sequencing reads, substitute `preprocessing_SE.pl` and `alignment_SE.sh` by `preprocessing.pl` and `alignment.sh`, respectively.
 
 The `log` folder has the terminal outputs of all scripts used above.
