@@ -2,7 +2,7 @@
 ChIP-seq pipeline
 =================
 
-I present here a bioinformatics pipeline to perform a basic ChIP-seq analysis, from getting the FASTQ files, read preprocessing and mapping to peak calling.
+A bioinformatics pipeline to perform a basic ChIP-seq analysis, from getting the FASTQ files, read preprocessing and mapping to peak calling.
 
 It explains the steps of the analysis and provides Perl and bash scripts (`script` folder) to run the analysis automatically with a few commands in the [last section](https://github.com/alfonsosaera/ChIPseq#automate-the-analysis).
 
