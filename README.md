@@ -164,7 +164,7 @@ Reads alignment
 
 `bowtie2`, a fast and memory-efficient tool for aligning sequencing reads to long reference sequences, was selected to align the trimmed FASTQ files. It is particularly good at aligning reads of about 50 up to 100s of characters to relatively long (e.g. mammalian) genomes. `bowtie2` indexes the genome with an [FM Index](https://en.wikipedia.org/wiki/FM-index), indexes for most common genomes can be found at Illumina's [iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html) collection.
 
-`bowtie2` outputs the alignment in SAM format. The it needs to be converted to BAM format, sorted and indexed. The code below does all this. [SAM Tools](http://samtools.sourceforge.net/) provide various utilities for manipulating alignments in the SAM format.
+`bowtie2` outputs the alignment in SAM format. The SAM file must be converted to BAM format, sorted and indexed. The code below does all this. [SAM Tools](http://samtools.sourceforge.net/) provide various utilities for manipulating alignments in the SAM format.
 
 ``` shell
 bowtie2 -p 3 -x human_index/genome -U SRR540188.trim.fastq -S SRR540188.sam
