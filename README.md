@@ -283,7 +283,7 @@ The output is composed of 6 files:
     siNT_vs_input_macs2_model.r             siNT_vs_input_macs2_summits.bed
     siNT_vs_input_macs2_peaks.narrowPeak    siNT_vs_input_macs2_treat_pileup.bdg
 
-`siNT_vs_input_macs2_peaks.xls` has a summary of all information and analyses. `siNT_vs_input_macs2_model.r` is R script which to produce a PDF image about the model based on the data using the code
+`siNT_vs_input_macs2_peaks.xls` has a summary of all information and analyses. `siNT_vs_input_macs2_model.r` is an R script that can be used to produce a PDF image about the model based on the data using the code
 
 ``` shell
 Rscript -vanilla siNT_vs_input_macs2_model.r
